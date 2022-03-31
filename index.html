@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href= "style.css" />
+    <title>Document</title>
+</head>
+<body class="flex-column min-100-vh">
+   <!--Search For Movie-->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="column col-md-3">  
+            <h5 class="mt-2">Search for a Movie Title:</h5>
+              <div class="form-inline form-group">
+                 <input class="form-control" type="text" id="searchValue" placeholder="Select Movie"/>
+                 <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+              </div>
+              <ul class="list-group movieSearchList p-2" id="movieArray">
+                
+              </ul>
+          </div>
+        </div>
+    </div>
+
+    <!--Search For TV Show-->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="column col-md-3">  
+            <h5 class="mt-2">Search for a TV Show Title:</h5>
+              <div class="form-inline form-group">
+                 <input class="form-control" type="text" id="searchValue" placeholder="Select TV Show"/>
+                 <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+              </div>
+              <ul class="list-group tvshowSearchList p-2" id="tvshowArray">
+                
+              </ul>
+          </div>
+    <script src = "search.js"></script>
+</body>
+</html>
