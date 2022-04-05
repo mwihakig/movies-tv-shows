@@ -1,8 +1,11 @@
-$(document).ready(function() {
+JS $(document).ready(function() {
 
 
     console.log('HELO TEAM')
 
+    
+    
+    
 
 
 
@@ -19,4 +22,5 @@ $(document).ready(function() {
 
 
 
-});
+
+
